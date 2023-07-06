@@ -1,6 +1,6 @@
 // Function to make a GET request to retrieve film data
 function getFilmData(url, callback) {
-    fetch(http://localhost:3000/films')
+    fetch('http://localhost:3000/films')
       .then(response => response.json())
       .then(data => callback(data))
       .catch(error => console.log(error));
